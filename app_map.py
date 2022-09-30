@@ -39,5 +39,11 @@ cityMap[13] = "東京"
 cityMap[27] = "神奈川"
 cityMap[14] = "大阪"
 
+# cityMap = dict({
+#   13: "東京",
+#   27: "大阪",
+#   14: "神奈川"
+# })
+
 for key in cityMap.keys():
   print(key)
