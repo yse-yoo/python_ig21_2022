@@ -22,6 +22,7 @@ for drink in drinks.values():
   print(drink.name)
   print(drink.price)
 
+# Dictionary(Map)
 foodMap = dict()
 foodMap["F0001"] = "Apple"
 foodMap["F0002"] = "Peach"
@@ -30,5 +31,13 @@ foodMap["F0003"] = "Grape"
 selectFood = foodMap["F0002"]
 print(selectFood)
 
-for food in foodMap.values():
-  print(food)
+for value in foodMap.values(): 
+  print(value)
+
+cityMap = dict()
+cityMap[13] = "東京"
+cityMap[27] = "神奈川"
+cityMap[14] = "大阪"
+
+for key in cityMap.keys():
+  print(key)
